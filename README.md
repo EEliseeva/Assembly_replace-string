@@ -23,11 +23,11 @@ File `test.txt`
 Content: `wertyabwertycdwerty`
 Word to replace: `we`
 Replacement: `WE`
-Output: 
->Enter a file name: test.txt
-Enter a word to replace: we
-Enter a replacement: WE
-WErtyabWErtycdWErty
+Output:   
+>Enter a file name: test.txt  
+Enter a word to replace: we  
+Enter a replacement: WE  
+WErtyabWErtycdWErty  
 Program is finished  and file is successfully closed
 
 **Second - replace with shorter word**
@@ -35,11 +35,11 @@ File `test.txt`
 Content: `wertyabwertycdwerty`
 Word to replace: `werty`
 Replacement: `a`
-Output: 
->Enter a file name: test.txt
-Enter a word to replace: werty
-Enter a replacement: a
-aabacda
+Output:  
+>Enter a file name: test.txt  
+Enter a word to replace: werty  
+Enter a replacement: a  
+aabacda  
 Program is finished  and file is successfully closed
 
 **Third - replace with longer word**
@@ -47,11 +47,11 @@ File `test.txt`
 Content: `wertyabwertycdwerty`
 Word to replace: `werty`
 Replacement: `#qwerty#`
-Output: 
->Enter a file name: test.txt
-Enter a word to replace: werty
-Enter a replacement: #qwerty#
-\#qwerty#ab#qwerty#cd#qwerty#
+Output:  
+>Enter a file name: test.txt  
+Enter a word to replace: werty  
+Enter a replacement: #qwerty#  
+\#qwerty#ab#qwerty#cd#qwerty#  
 Program is finished  and file is successfully closed
 
 We can see that program successfully replaced word at the start, in the middle and at the end of the file.
@@ -61,11 +61,11 @@ File `test.txt`
 Content: `wertyabwertycdwerty`
 Word to replace: `A`
 Replacement: `a`
-Output: 
->Enter a file name: test.txt
-Enter a word to replace: A
-Enter a replacement: a
-wertyabwertycdwerty
+Output:  
+>Enter a file name: test.txt  
+Enter a word to replace: A  
+Enter a replacement: a  
+wertyabwertycdwerty  
 Program is finished  and file is successfully closed
 
 Nothing changed because there was no match.
@@ -76,9 +76,9 @@ File `test2.txt`
 Content: 75KB Lorem Ipsum
 Word to replace: `a`
 Replacement: `*A*`
-Output: 
->Enter a file name: test2.txt
-Enter a word to replace: a
-Enter a replacement: \*A\*
-\//Program replaced every 'a' with '\*A\*', only last rows are visible//
+Output:  
+>Enter a file name: test2.txt  
+Enter a word to replace: a  
+Enter a replacement: \*A\*  
+\//Program replaced every 'a' with '\*A\*', only last rows are visible//  
 Program is finished  and file is successfully closed
