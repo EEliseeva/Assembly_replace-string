@@ -4,7 +4,7 @@ include macros.asm
 .DATA
     filehandle dw 0
     
-    mess_ok db 10, 13, 'Program is finished and file is succesufully closed$'
+    mess_ok db 10, 13, 'Program is finished and file is successfully closed$'
     mess_error db 10, 13, 'Can`t open the file$'
     mess_enter_filename db 'Enter a file name: $'
     mess_enter_wtr db 'Enter a word you want to replace: $'
